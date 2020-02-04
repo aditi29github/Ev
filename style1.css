@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+
+
+.w3-sidebar w3-light-grey w3-bar-block{
+    background-color: #284443;
+}
+
+.wheel{
+    left: 50%;
+    bottom: 178px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.wheel img{
+    height: 50px;
+    width: 50px;
+    animation: wheel 1s linear infinite;
+}
+
+.back-wheel{
+    left: 10px;
+    bottom: 370px;
+    position: absolute;
+
+}
+
+.front-wheel{
+    left: 226px;
+    bottom: 370px;
+    position: absolute;
+
+}
+
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.w3-card{
+    background-color: #0f1111af;
+    height=100px;
+}
